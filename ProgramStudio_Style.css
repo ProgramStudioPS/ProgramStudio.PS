@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FFF5EE;
+}
+
+header {
+    background-color: black;
+    color: #f36507;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.icon{
+    height: 8%;
+    width: 8%;
+    float: left;
+    margin: -14px 0 0 20px;
+    z-index: 3;
+}
+
+.icon1{
+    height: 500px;
+    width: 550px;
+    float: auto;
+    margin: 40px 0 0 40px;
+    z-index: 3;
+}
+
+.icon2{
+    height: 500px;
+    width: 550px;
+    float: auto;
+    margin: 40px 0 0 40px;
+}
+
+body.dark {
+    background: black;
+    color: white;
+    
+    #frame{
+    background-color: #444;
+    color: white;
+    border: 1.5px solid white;
+}
+    
+    #button2{
+    border: 1.5px solid white;
+}
+    #text{
+    color: #ffffff;
+}
+    .text3 a{
+        color: white;
+    }
+
+    .img1{
+        border: 1.5px solid white;
+    }
+
+    .site{
+        color: white;
+    }
+}
+
+button1 {
+    float: right;
+    margin: 15px 0 0 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 80px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    transition: transform 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+button1:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem ;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #444;
+    color: white;
+    margin-top: 2rem;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.3rem;
+    justify-content: center;
+}
+   
+.course h4 {
+    margin: 0 0 0.3rem;
+}
+
+.course p {
+    font-size: 0.85rem;
+    color: grey;
+}
+
+.course button2 {
+    background-color: #f36507;
+    color: black;
+    border: 1.5px solid black;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.course button2:hover {
+    background-color: orange;
+}
+
+.name{
+    background-color: black;
+    color: orange;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.course {
+    background: #fff;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 325px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.more-courses {
+    display: none;
+}
+
+.courses3 {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.container button3 {
+    background-color: #f36507;
+    color: black;
+    border: 1.5px solid black;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    width: 95%;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container button3:hover {
+    background-color: orange;
+}
+
+.namecourses {
+    background-color: #444;
+    text-align: center;
+    font-size: 2rem ;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    display: block;
+    width:100vw;
+}
+
